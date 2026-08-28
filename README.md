@@ -1,0 +1,8 @@
+# 52 Fun Game public pages
+
+Public privacy policy and parent support for **First Words: Scratch & Learn**.
+
+- Privacy: https://52fungame-max.github.io/privacy/
+- Support: https://52fungame-max.github.io/support/
+
+This repository contains HTML only. It does not include the app source.

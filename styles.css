@@ -1,0 +1,143 @@
+:root {
+  --cream: #f7f3e6;
+  --ink: #3b2a1a;
+  --muted: #6b5746;
+  --card: #fffdf6;
+  --line: #ead9c0;
+  --accent: #e07a3d;
+  --link: #b85a22;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: "Segoe UI", "PingFang SC", "Hiragino Sans GB", "Noto Sans SC",
+    "Microsoft YaHei", sans-serif;
+  background: radial-gradient(1200px 600px at 10% -10%, #fff7d8 0%, transparent 55%),
+    radial-gradient(900px 500px at 110% 0%, #ffd9b8 0%, transparent 50%),
+    var(--cream);
+  color: var(--ink);
+  line-height: 1.65;
+}
+
+a {
+  color: var(--link);
+}
+
+.wrap {
+  width: min(820px, calc(100% - 32px));
+  margin: 0 auto;
+  padding: 28px 0 64px;
+}
+
+.brand {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  margin-bottom: 22px;
+}
+
+.brand strong {
+  font-size: 1.35rem;
+}
+
+.brand span {
+  color: var(--muted);
+  font-size: 0.95rem;
+}
+
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 22px;
+}
+
+nav a {
+  display: inline-block;
+  padding: 8px 14px;
+  border-radius: 999px;
+  background: var(--card);
+  border: 1px solid var(--line);
+  text-decoration: none;
+  font-weight: 600;
+}
+
+nav a[aria-current="page"] {
+  background: #fff1dc;
+  border-color: #f0c089;
+}
+
+.card {
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: 22px;
+  padding: 22px 22px 8px;
+  box-shadow: 0 10px 30px rgba(80, 50, 20, 0.06);
+}
+
+h1 {
+  margin: 0 0 8px;
+  font-size: 1.8rem;
+  line-height: 1.25;
+}
+
+.meta {
+  color: var(--muted);
+  margin: 0 0 18px;
+}
+
+h2 {
+  margin: 28px 0 8px;
+  font-size: 1.2rem;
+}
+
+p,
+li {
+  color: #4a3728;
+}
+
+ul {
+  padding-left: 1.2rem;
+}
+
+.lang {
+  margin-top: 36px;
+  padding-top: 8px;
+  border-top: 1px dashed var(--line);
+}
+
+.cta {
+  display: grid;
+  gap: 12px;
+  margin: 18px 0 8px;
+}
+
+.cta a {
+  display: block;
+  padding: 16px 18px;
+  border-radius: 16px;
+  background: #fff;
+  border: 1px solid var(--line);
+  text-decoration: none;
+  color: inherit;
+}
+
+.cta a strong {
+  display: block;
+  color: var(--accent);
+  margin-bottom: 2px;
+}
+
+footer {
+  margin-top: 22px;
+  color: var(--muted);
+  font-size: 0.9rem;
+}
