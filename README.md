@@ -1,6 +1,6 @@
 # 52 Fun Game public pages
 
-Public privacy policy and parent support for **First Words: Scratch & Learn**.
+Public privacy policy and parent support for **First Words: Toddler Play**.
 
 - Privacy: https://52fungame-max.github.io/privacy/
 - Support: https://52fungame-max.github.io/support/
